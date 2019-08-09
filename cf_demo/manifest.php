@@ -31,12 +31,12 @@ $installdefs = array(
   'custom_fields' => array(
     // Leads
     array(
-      'name' => 'seo_num_cliente_c',
-      'label' => 'LBL_SEO_NUMERO_DE_CLIENTE_C',
+      'name' => 'job_title_c',
+      'label' => 'LBL_JOB_TITLE',
       'type' => 'varchar',
       'default_value' => false,
       'module' => 'Leads',
-      'date_modified' => '2018-07-11 18:30:00',
+      'date_modified' => '2019-08-09 15:00:00',
       'required' => false,
       'deleted' => '0',
       'audited' => true,
@@ -47,7 +47,7 @@ $installdefs = array(
 
   'language' => array(
     array(
-      'from' => '<basepath>/custom/Extension/leads/Ext/Language/es_LA.Account_type_custom_lista.php',
+      'from' => '<basepath>/custom/Extension/leads/Ext/Language/es_LA.job_title.php',
       'to_module' => 'leads',
       'language' => 'es_LA'
     ),
